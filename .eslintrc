@@ -1,0 +1,26 @@
+
+{
+//  "extends": ["react-app"]
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "react-app",
+    "plugin:react/recommended",
+  ],"plugins": [
+  "react"
+//  "@typescript-eslint"
+],"globals": {
+  // 사용자가 추가하는 전역 변수
+  "Atomics": "readonly",
+  "SharedArrayBuffer": "readonly"
+},"parserOptions": {
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "ecmaVersion": 6,
+  "sourceType": "module"
+}
+}
