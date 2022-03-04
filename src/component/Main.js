@@ -10,7 +10,9 @@ const Main = () => {
       </div>
       <div>사용자설정</div>
       <div>
-        <Menu title="솔로" link='sole'/>
+        <Menu title="솔로" link="sole" />
+        <Menu title="코로나" link="covid" />
+        <Menu title="방만들기" link='createroom'/>
         {/*<Menu title="랜덤" link='random'/>*/}
         {/*<Menu title="사용자설정" link='custom'/>*/}
       </div>
