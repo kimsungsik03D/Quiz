@@ -3,6 +3,7 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Main from './component/Main'
 import Creatroom from './component/Creatroom'
+import CovidData from './component/CovidData'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/creatroom" element={<Creatroom />} />
+          <Route path="/createroom" element={<Creatroom />} />
+          <Route path="/covid" element={<CovidData />} />
         </Routes>
       </Router>
     </div>
