@@ -5,6 +5,7 @@ import Main from './component/Main'
 import Creatroom from './component/Creatroom'
 import CovidData from './component/CovidData'
 import Login from './component/Login'
+import DataGrid from './component/DataGrid'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/createroom" element={<Creatroom />} />
           <Route path="/covid" element={<CovidData />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/datagrid" element={<DataGrid />} />
         </Routes>
       </Router>
     </div>
