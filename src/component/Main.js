@@ -13,6 +13,7 @@ const Main = () => {
         <Menu title="솔로" link="sole" />
         <Menu title="코로나" link="covid" />
         <Menu title="방만들기" link='createroom'/>
+        <Menu title="채팅" link='chatting'/>
         {/*<Menu title="랜덤" link='random'/>*/}
         {/*<Menu title="사용자설정" link='custom'/>*/}
       </div>
