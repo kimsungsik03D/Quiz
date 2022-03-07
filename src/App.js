@@ -7,6 +7,7 @@ import CovidData from './component/CovidData'
 import Login from './component/Login'
 import DataGrid from './component/DataGrid'
 import ChattingFormat from './component/ChattingFormat'
+import GoogleHome from './component/GoogleHome'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/datagrid" element={<DataGrid />} />
           <Route path="/chatting" element={<ChattingFormat />} />
+          <Route path="/googlehome" element={<GoogleHome />} />
         </Routes>
       </Router>
     </div>
